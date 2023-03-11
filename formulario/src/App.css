@@ -44,3 +44,15 @@ header img {
   max-width: 22px;
   margin: 0.5vw;
 }
+
+
+/* Responsividade */
+
+@media (min-width: 768px) {
+  .footer_agencia_container{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+  }
+}
