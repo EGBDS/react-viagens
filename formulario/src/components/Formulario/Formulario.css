@@ -1,0 +1,108 @@
+.formulario {
+    display: flex;
+    background: url('../../assets/bahia.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+form {
+    padding: 2vw;
+}
+
+input {
+    padding: 0.5vw 0;
+    width: 100%;
+    margin: 0.5vw 0;
+    font-size: larger;
+}
+
+select {
+    padding: 0.5vw 0;
+    width: 90vw;
+    font-size: larger;
+}
+form > label {
+    margin: 5vw 0;
+}
+
+fieldset > div {
+    padding: 0.5vw;
+}
+
+.form_all {
+    background-color: white;
+    margin: 5vw 5vw;
+    width: 90vw;
+    font-size: larger;
+}
+
+
+.img_orcamento {
+    display: flex;
+    background-color: rgb(122, 41, 197);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.img_orcamento img {
+    width: 30px;
+    max-height: 30px;
+    transform: rotate(-40deg);
+    margin: 0 1vw;
+}
+
+fieldset > div > input {
+    width: auto;
+    margin-right: 0.4vw;
+}
+
+
+button {
+    width: 100%;
+    background-color: rgb(122, 41, 197);
+    color: white;
+    box-shadow: none;
+    border: 1px solid gray;
+    padding: 0.6vw 0;
+    margin: 1vw 0;
+    font-size: larger;
+}
+
+@media (min-width: 540px) {
+    .datas {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #data_ida {
+        width: 40vw;
+    }
+    
+    #data_volta {
+        width: 40vw;
+    }
+
+    .origem_destino {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #origem{
+        width: 40vw;
+    }
+
+    #destino{
+        width: 40vw;
+    }
+
+    fieldset {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+

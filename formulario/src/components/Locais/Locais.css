@@ -2,6 +2,7 @@
     max-width: 100vw;
     overflow-x: hidden;
     margin: 3vw;
+    font-size: x-large;
 }
 
 h2, h3 {
@@ -9,7 +10,7 @@ h2, h3 {
 }
 
 img{
-    max-width: 100vw;
+    width: 100vw;
 }
 
 .text_img, .text_img_rio {
@@ -46,6 +47,7 @@ img{
     img {
         width: 100vw;
     }
+
 }
 
 @media (min-width: 768px) {
